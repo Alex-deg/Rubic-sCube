@@ -1,6 +1,7 @@
 ﻿#include "Model.h"
 #include "func.h"
 #include "Shader.h"
+#include "RCube.h"
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -8,7 +9,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <map>
-#include "RCube.h"
 #include <thread> 
 #include <chrono>   
 #include <SDL2/SDL_mixer.h>
